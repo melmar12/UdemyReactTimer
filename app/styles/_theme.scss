@@ -1,0 +1,6 @@
+// colros 
+$color1: #9000ff;
+@mixin rgbaColor1($a){ background-color: rgba(144, 0, 255, $a);};
+
+body {
+}
