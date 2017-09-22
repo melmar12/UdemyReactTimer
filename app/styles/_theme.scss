@@ -1,6 +1,18 @@
 // colros 
 $color1: #9000ff;
+$color2: #ad32ff;
+
+
 @mixin rgbaColor1($a){ background-color: rgba(144, 0, 255, $a);};
 
+
+@mixin color2-rgba($a) { background-color: rgba(173, 50, 255, $a);}
+
 body {
+}
+
+.container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }

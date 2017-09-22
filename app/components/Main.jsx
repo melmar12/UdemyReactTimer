@@ -7,8 +7,10 @@ var Main = (props) => {
         <div className="row">
           <div>
             <Navigation/>
-            <p>Main.jsx Rendered</p>
-            {props.children}
+            <div className="container">
+              <p>Main.jsx Rendered</p>
+              {props.children}
+            </div>
           </div>
         </div>
       </div>
