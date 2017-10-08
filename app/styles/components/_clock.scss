@@ -8,13 +8,22 @@
     width: 300px;
     position: relative;
     border: 3px solid $color2;
-
+    margin-bottom: 10px;
 
 }
-
 .clock-text {
 	color: white;
 	text-align: center;
 	font-size: 63px;
 }
 
+.controls {
+    display: flex;
+    justify-content: center;
+    .button {
+        padding: .75rem 3rem;
+    }
+    .button:first-child {
+        margin-right: 10px;
+    }
+}
