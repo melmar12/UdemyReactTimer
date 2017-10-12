@@ -38,6 +38,12 @@ var Timer = React.createClass({
 		  });
 		}, 1000);
 	},
+	handleSetTimer: function () {
+		this.setState({timerStatus: 'started'});
+	},
+	handleStatusChange: function (newStatus) {
+		this.setState(timerStatus: newStatus);
+	},
 	pauseTimer: function () {
 		this.setState({timerStatus: 'paused'});
 	},
