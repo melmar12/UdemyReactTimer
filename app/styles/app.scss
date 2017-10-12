@@ -1,4 +1,10 @@
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
 @import "theme";
+
 @import "components/navigation";
 @import "components/clock";
 body {color:black};
+
